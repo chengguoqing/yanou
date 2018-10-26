@@ -1,0 +1,22 @@
+.sd_derttxc{
+    height: 210rpx;
+    background: linear-gradient(to right,#FAE9A4, #5CC0D1);
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+.sd_dfgrtx{
+  position: relative;
+  z-index: 100;
+  margin-top: 160rpx;
+  min-height: 500px;
+  border-top-right-radius: 30rpx;
+   border-top-left-radius: 30rpx;
+}
+.user_iconer{
+  width: 160rpx;
+  height: 160rpx;
+  margin-top: -80rpx;
+}

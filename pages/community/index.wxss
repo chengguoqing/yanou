@@ -1,0 +1,7 @@
+.ssj_dert{
+  background: #F5F5F5
+}
+.user_icon{
+  width: 40rpx;
+  height: 40rpx;
+}

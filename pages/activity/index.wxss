@@ -1,0 +1,11 @@
+.ssj_dert{
+  background: #F5F5F5
+}
+.fenghm_eert{
+  width: 100%;
+  height: 280rpx;
+}
+.sdf_derrtx{
+  position: relative;
+  top: -4rpx
+}

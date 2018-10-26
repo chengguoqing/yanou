@@ -1,0 +1,67 @@
+/**app.wxss**/
+@import 'bass.wxss';
+
+page {
+  font-family: 'Microsoft Yahei';
+  background: #eee;
+}
+
+.scroll-view_H {
+  white-space: nowrap;
+  height: 90rpx;
+  background: #fff;
+}
+
+.sd_derdrt {
+  display: inline-block;
+  font-size: 30rpx;
+  line-height: 86rpx;
+  margin-left: 50rpx;
+  color: #aab4bd;
+}
+
+.sd_derdrt.act {
+  border-bottom: 2px solid #ff473b;
+  color: #333;
+}
+.sd_derdrt.ab{
+  width: 100rpx
+}
+
+.sd_kjjh_der {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 54rpx;
+  height: 90rpx;
+  z-index: 1000;
+}
+.df_deertxc{
+  position: sticky !important;
+  left: 0px;
+  top: 0;
+  z-index: 1000
+}
+.ssj_dert {
+  background: #fff;
+  height: 60rpx;
+  border-radius: 40rpx;
+  color: #aab4bd;
+  font-size: 28rpx;
+  line-height: 60rpx;
+  text-align: center;
+}
+.ssj_dert icon{
+ position: relative;
+ top: 10rpx;
+ margin-right: 10rpx
+}
+
+.sdf_jh_dert image.aa{
+  width: 28rpx;
+  height: 24rpx
+}
+.sdf_jh_dert image.ab{
+width: 26rpx;
+  height: 24rpx
+}

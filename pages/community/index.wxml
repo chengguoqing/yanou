@@ -1,0 +1,56 @@
+<view class="bgff">
+  <view class='pt20  pd'>
+    <navigator class='ssj_dert'>
+      <icon type='search' size='18'></icon>
+      <text class="cz">搜索文章</text>
+    </navigator>
+
+  </view>
+
+
+ 
+</view>
+
+ <view class='df_deertxc bbm '>
+    <image src='/img/bian_s.png' class='sd_kjjh_der'></image>
+    <scroll-view class="scroll-view_H pr" scroll-x style="width: 100%">
+      <view wx:for="{{fenlei}}" class='sd_derdrt {{item.cls}}' bindtap='sd_drtx' data-idx="{{index}}">{{item.name}}</view>
+      <view class='sd_derdrt ab'></view>
+    </scroll-view>
+  </view>
+
+  <view class='mt20'>
+    <view class='pd pt20 pm20 bgff bbm' wx:for="{{10}}">
+        <view class='box'>
+            <view class='box_a'>
+                <image src='/img/banner.jpg' class='user_icon yj cz'></image>
+                <text class='cz fz24 z6 ml10'>野兽派老板娘</text>
+            </view>
+             <view class='box_a tr fz22 z9 mt15'>
+6分钟前
+             </view>
+        </view>
+
+        <view class='fz32 z3 pt20 '>
+       书单来了丨10万+读者力荐的国产经典书top5，
+猜猜是哪5本？
+        </view>
+
+        <view class='fr sdf_derrtx'>
+        <view class='box sdf_jh_dert '>
+          <view class='box_a '>
+            <image src='/img/sdf_c.png' class='aa cz'></image>
+            <text class='z9 fz24 cz ml5'>572</text>
+          </view>
+          <view class='box_a pl30'>
+            <image src='/img/sdf_b.png' class='ab cz'></image>
+            <text class='z9 fz24 cz ml5'>572</text>
+          </view>
+
+        </view>
+      </view>
+      <view class='qc'></view>
+
+
+    </view>
+  </view>

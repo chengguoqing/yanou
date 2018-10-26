@@ -1,0 +1,51 @@
+<view class="swiper_xdfg ">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true" indicator-active-color="{{active_color}}" indicator-color="{{indicator}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="355" height="150" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+
+<view class='pt20 pm20 pd'>
+  <navigator class='ssj_dert'>
+    <icon type='search' size='18'></icon>
+    <text class="cz">搜索文章</text>
+  </navigator>
+
+</view>
+
+<view class='df_deertxc bbm btm'>
+  <image src='/img/bian_s.png' class='sd_kjjh_der'></image>
+  <scroll-view class="scroll-view_H pr" scroll-x style="width: 100%">
+    <view wx:for="{{fenlei}}" class='sd_derdrt {{item.cls}}' bindtap='sd_drtx' data-idx="{{index}}">{{item.name}}</view>
+<view class='sd_derdrt ab'></view>
+  </scroll-view>
+</view>
+
+<view class='bgff'>
+  <view class='pd pt20 pm20 bbm' wx:for="{{10}}">
+    <image src='/img/case_s.jpg' class='jgh_dert cz fr'></image>
+    <view class='ov pr20'>
+      <view class='sd_jh_deert'>
+        复旦家长“教育群”集锦VOL2：小学选择体制内还是体制外
+      </view>
+      <view class='box sdf_jh_dert mt10'>
+        <view class='box_a '>
+          <image src='/img/sdf_a.png' class='aa cz'></image>
+          <text class='z9 fz24 cz ml5'>572</text>
+        </view>
+        <view class='box_a'>
+          <image src='/img/sdf_b.png' class='ab cz'></image>
+          <text class='z9 fz24 cz ml5'>572</text>
+        </view>
+        <view class='box_a'>
+          <image src='/img/sdf_c.png' class='aa cz'></image>
+          <text class='z9 fz24 cz ml5'>572</text>
+        </view>
+      </view>
+    </view>
+    <view class='qc'></view>
+  </view>
+</view>

@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/user/index",
+    "pages/community/index",
+    "pages/activity/index",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "燕鸥半岛+"
+  },
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "color": "#aab4bd",
+    "selectedColor": "#00b2e3",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/img/bottom/sdfa_a.png",
+        "selectedIconPath": "/img/bottom/sdfb_a.png"
+      },
+      {
+        "pagePath": "pages/activity/index",
+        "text": "活动",
+        "iconPath": "/img/bottom/sdfa_b.png",
+        "selectedIconPath": "/img/bottom/sdfb_b.png"
+      },
+      {
+        "pagePath": "pages/community/index",
+        "text": "社区",
+        "iconPath": "/img/bottom/sdfa_c.png",
+        "selectedIconPath": "/img/bottom/sdfb_c.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "个人",
+        "iconPath": "/img/bottom/sdfa_d.png",
+        "selectedIconPath": "/img/bottom/sdfb_d.png"
+      }
+    ]
+  }
+}

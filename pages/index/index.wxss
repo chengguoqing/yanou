@@ -1,0 +1,19 @@
+.swiper_xdfg image {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper_xdfg swiper {
+  height: 300rpx;
+}
+
+
+.jgh_dert{
+  width: 200rpx;
+  height: 150rpx;
+}
+.sd_jh_deert{
+  line-height: 48rpx;
+  font-size: 32rpx;
+  height: 90rpx;
+}
