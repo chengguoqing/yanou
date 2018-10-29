@@ -20,3 +20,30 @@
   height: 160rpx;
   margin-top: -80rpx;
 }
+.lou_deeret{
+  background: #FF473B;
+  color: #fff;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 4rpx 20rpx
+}
+.lou_deeret.ab{
+  background: #00B2E3
+}
+.sex_img{
+  width: 20rpx;
+  height: 20rpx
+}
+.aixing_de{
+  width: 36rpx;
+  height: 34rpx;
+}
+.right_list_er{
+  position: absolute;
+  right: 0px;
+  top:20rpx
+}
+.right_list_er image{
+  width: 15rpx;
+  height: 25rpx;
+}

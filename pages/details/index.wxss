@@ -1,0 +1,29 @@
+.xinxi_der{
+  width: 30rpx;
+  height: 30rpx;
+}
+.touxiange{
+  width: 55rpx;
+  height: 55rpx;
+}
+.sadf_inpuy input{
+  height: 80rpx;
+  background: #F7F7F7;
+  line-height: 80rpx;
+  border-radius: 40rpx;
+  font-size: 32rpx;
+  padding-left: 40rpx !important;
+}
+.sadf_inpuy{
+  margin-top: 30rpx;
+  width: 100%;
+  position: relative;
+}
+
+.huoqu_er{
+  position: absolute;
+  right: 30rpx;
+  top: 20rpx;
+  z-index: 1000;
+  font-size: 28rpx
+}

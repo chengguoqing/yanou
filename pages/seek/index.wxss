@@ -1,0 +1,35 @@
+.ssj_dert{
+    height: 80rpx;
+}
+.ssj_dert input {
+  line-height: 80rpx;
+  height: 80rpx;
+  text-align: left;
+  color: #333;
+  padding-left: 80rpx !important;
+}
+
+.ssj_dert icon {
+  position: absolute;
+  left: 20rpx;
+  top: 20rpx;
+}
+.wenjier_dr{
+  font-size: 30rpx;
+  color: #101820;
+  background: #fff;
+  border-radius: 40rpx;
+  width: 140rpx;
+  height: 60rpx;
+  text-align: center;
+  line-height: 60rpx;
+  float: left;
+  margin-right: 35rpx;
+  margin-bottom: 30rpx;
+  border: 1px solid #fff
+}
+.wenjier_dr.act{
+  background: #FFF6F5;
+  border: 1px solid #FF9D96;
+  color: #FF9D96
+}

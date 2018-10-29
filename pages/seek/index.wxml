@@ -1,0 +1,16 @@
+<view class='pt20 pm20 pd mt20'>
+  <view class='ssj_dert pr'>
+    <icon type='search' size='18'></icon>
+    <input type='search' placeholder='输入关键字'></input>
+  </view>
+</view>
+
+<view class='pl20 mt30'>
+  <text class='wenjier_dr {{item.cls}}' wx:for="{{sd_crf}}" data-idx="{{index}}" bindtap='dsd_df'>文学</text>
+</view>
+<view class='qc'></view>
+<view class='pd mt40'>
+  <view class='tijiao_dfe fz32'>
+  提交
+  </view>
+</view>

@@ -1,0 +1,113 @@
+<view class="pd pt20 pm20 bgff">
+  <view class='fz32 z3'>
+    标题啊标题啊标题啊标题啊标题啊标题啊标题啊标题啊标题啊标题啊标题啊标题啊标题啊
+  </view>
+
+  <view class='z9 fz26 mt20'>
+    原创：Christine
+    <text class='ls ml10'>燕鸥半岛+</text>
+    <text class='ml10'>前天</text>
+  </view>
+
+  <view class='fz30 mt20'>
+    是发送到发送到对方感受到递四方速递是发送到发送到对方感受到递四方速递是发送到发送到对方感受到递四方速递是发送到发送到对方感受到递四方速递是发送到发送到对方感受到递四方速递
+  </view>
+
+  <view class='fz26 z9 mt20'>
+    阅读 1793
+    <view class='fr'>
+      <image src='/img/xing.png' class='xinxi_der cz'></image>
+      <text class='ls cz fz32 ml5'>3</text>
+
+      <image src='/img/dianzan.png' class='xinxi_der cz ml20'></image>
+      <text class='ls cz fz32 ml5'>3</text>
+
+
+    </view>
+  </view>
+
+</view>
+
+
+<view class='pd pt20 pm20'>
+  <view class='z9 fz32'>
+    精选留言
+    <text class='fr ls fz28 mt10'>写留言</text>
+    <view class='qc'></view>
+  </view>
+
+  <view class='mt20 ' wx:for="{{2}}">
+
+    <image src='/img/case_s.jpg' class='touxiange fl'></image>
+    <view class='ov pl20'>
+      <view class='fz30 z9'>
+        我问未来的自己
+        <image src='/img/dianzan.png' class='xinxi_der fr mt10'></image>
+
+        <view class='qc'></view>
+      </view>
+
+      <view class='fz30 z3 mt10'>
+        我也像参加比赛 但是 我不到现场怎么办我不到现场怎么办我不到现场怎么办
+      </view>
+
+
+    </view>
+    <view class='qc'></view>
+
+  </view>
+
+</view>
+
+
+<view class='pd pt20 pm20 bgff'>
+    <view class='sadf_inpuy'>
+        <input type='text' placeholder='姓名'></input>
+    </view>
+
+       <view class='sadf_inpuy'>
+        <input type='number' placeholder='手机号'></input>
+    </view>
+
+       <view class='sadf_inpuy'>
+        <input type='text' placeholder='验证码'></input>
+        <text class='ls huoqu_er'>获取验证码</text>
+    </view>
+
+
+     <view class='tijiao_dfe fz32 mt40'>
+  提交
+  </view>
+</view>
+
+
+
+
+<view class='pd pt20 pm20'>
+  <view class='yj4 bgff pd mb20' wx:for="{{10}}">
+    <view class=' pt20 pm10 fz32 z3'>
+      南昌大学公开课：走近科学女王
+    </view>
+    <image src='/img/banner.jpg' class='fenghm_eert cz'></image>
+
+    <view class='pt20 pm10 z9 fz26'>
+      7分钟前
+      <view class='fr sdf_derrtx'>
+        <view class='box sdf_jh_dert '>
+          <view class='box_a '>
+            <image src='/img/sdf_a.png' class='aa cz'></image>
+            <text class='z9 fz24 cz ml5'>572</text>
+          </view>
+          <view class='box_a pl30'>
+            <image src='/img/sdf_c.png' class='aa cz'></image>
+            <text class='z9 fz24 cz ml5'>572</text>
+          </view>
+
+        </view>
+      </view>
+      <view class='qc'></view>
+    </view>
+
+  </view>
+
+</view>

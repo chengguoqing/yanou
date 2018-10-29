@@ -1,0 +1,8 @@
+<navigator class='bgff bbm pd pt20 pm20' wx:for="{{10}}" url="/pages/details/index">
+    <view class='fz36 z3'>
+    高中生数学学霸锻造“1天1课”行动
+    </view>
+    <view class='fz24 z9 tr  mt20'>
+    野兽派老板娘
+    </view>
+</navigator>

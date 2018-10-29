@@ -1,6 +1,6 @@
 <view class="bgff">
   <view class='pt20  pd'>
-    <navigator class='ssj_dert'>
+    <navigator class='ssj_dert' url="/pages/seek/index">
       <icon type='search' size='18'></icon>
       <text class="cz">搜索文章</text>
     </navigator>
@@ -20,7 +20,10 @@
   </view>
 
   <view class='mt20'>
-    <view class='pd pt20 pm20 bgff bbm' wx:for="{{10}}">
+
+
+
+    <navigator class='pd pt20 pm20 bgff bbm' wx:for="{{10}}"  url="/pages/details/index">
         <view class='box'>
             <view class='box_a'>
                 <image src='/img/banner.jpg' class='user_icon yj cz'></image>
@@ -52,5 +55,5 @@
       <view class='qc'></view>
 
 
-    </view>
+    </navigator>
   </view>

@@ -1,9 +1,52 @@
 <view class="sd_derttxc"></view>
-<view class='bgff sd_dfgrtx'>
-    <view class='cen'>
-      <image src='/img/banner.jpg' class='user_iconer yj'></image>
-    </view>
+<view class='bgff sd_dfgrtx pd'>
+  <view class='cen'>
+    <image src='/img/banner.jpg' class='user_iconer yj'></image>
+  </view>
 
-    2
+  <view class='fz36 cen mt10'>
+    逆着时间の方向
+  </view>
+  <view class='cen fz24 mt10'>
+    <view class='lou_deeret'>Lv3</view>
+    <view class='lou_deeret ab ml20'>
+      <image src='/img/dsf_a.png' class='sex_img'></image> 25
+    </view>
+  </view>
+
+  <view class='pd mt80 bbm' url="/pages/user/my_favorite">
+    <navigator class='pt20 pm20 btm pr' url="/pages/user/my_favorite">
+      <image src='/img/df_a.png' class='aixing_de cz'></image>
+      <text class='fz32 z3 cz ml10'>我的收藏</text>
+      <view class='right_list_er'>
+        <text class='fz32 z9 cz'>8</text>
+        <image src='/img/right.png' class='cz ml10'></image>
+      </view>
+    </navigator>
+
+
+    <navigator class='pt20 pm20 btm pr' url="/pages/user/my_favorite">
+      <image src='/img/df_b.png' class='aixing_de cz'></image>
+      <text class='fz32 z3 cz ml10'>我的评论</text>
+      <view class='right_list_er'>
+        <text class='fz32 z9 cz'>8</text>
+        <image src='/img/right.png' class='cz ml10'></image>
+      </view>
+    </navigator>
+
+
+    <navigator class='pt20 pm20 btm pr' url="/pages/user/my_favorite">
+      <image src='/img/df_c.png' class='aixing_de cz'></image>
+      <text class='fz32 z3 cz ml10'>报名活动</text>
+      <view class='right_list_er'>
+        <text class='fz32 z9 cz'>8</text>
+        <image src='/img/right.png' class='cz ml10'></image>
+      </view>
+    </navigator>
+
+
+  </view>
+
+
 
 </view>

@@ -9,7 +9,7 @@
 </view>
 
 <view class='pt20 pm20 pd'>
-  <navigator class='ssj_dert'>
+  <navigator class='ssj_dert' url="/pages/seek/index">
     <icon type='search' size='18'></icon>
     <text class="cz">搜索文章</text>
   </navigator>
@@ -25,7 +25,8 @@
 </view>
 
 <view class='bgff'>
-  <view class='pd pt20 pm20 bbm' wx:for="{{10}}">
+
+  <navigator class='pd pt20 pm20 bbm' wx:for="{{10}}" url="/pages/details/index">
     <image src='/img/case_s.jpg' class='jgh_dert cz fr'></image>
     <view class='ov pr20'>
       <view class='sd_jh_deert'>
@@ -47,5 +48,7 @@
       </view>
     </view>
     <view class='qc'></view>
-  </view>
+  </navigator>
+
+
 </view>

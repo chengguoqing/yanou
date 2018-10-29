@@ -1,6 +1,6 @@
 <view class="bgff">
   <view class='pt20  pd'>
-    <navigator class='ssj_dert'>
+    <navigator class='ssj_dert' url="/pages/seek/index">
       <icon type='search' size='18'></icon>
       <text class="cz">搜索文章</text>
     </navigator>
@@ -10,7 +10,7 @@
 
  
 </view>
-
+ 
  <view class='df_deertxc bbm '>
     <image src='/img/bian_s.png' class='sd_kjjh_der'></image>
     <scroll-view class="scroll-view_H pr" scroll-x style="width: 100%">
@@ -23,7 +23,8 @@
 
 
 <view class='pd pt20 pm20'>
-  <view class='yj4 bgff pd mb20' wx:for="{{10}}">
+
+  <navigator class='yj4 bgff pd mb20' wx:for="{{10}}"  url="/pages/details/index">
     <view class=' pt20 pm10 fz32 z3'>
       南昌大学公开课：走近科学女王
     </view>
@@ -45,8 +46,8 @@
         </view>
       </view>
       <view class='qc'></view>
-    </view>
+    </view >
 
-  </view>
+  </navigator>
 
 </view>
