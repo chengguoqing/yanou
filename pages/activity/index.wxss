@@ -1,0 +1,23 @@
+.f_jh_derrttx{
+  width: 50% !important;
+  float: left;
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+
+}
+.df_jh_der{
+  padding-left: 5rpx;
+  padding-right: 5rpx;
+}
+.sd_dfrttyxcc{
+  width: 110rpx;
+  height: 110rpx;
+}
+.df_deertxc{
+  position: sticky;
+  top: 0px;
+  z-index: 10000
+}
+.fenghm_eert{
+  height: 300rpx;
+}

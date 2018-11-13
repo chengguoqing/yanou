@@ -23,31 +23,9 @@
   text-align: left;
   padding-left: 80rpx !important;
   position: relative;
-  top: 15rpx;
-}
-.ssj_dert icon{
-  position: absolute;
-  left: 30rpx  !important;
-  top: 20rpx  !important;
+  top: 2rpx;
 }
 
-
-.ssj_dert{
-    height: 80rpx;
-}
-.ssj_dert input {
-  line-height: 80rpx;
-  height: 80rpx;
-  text-align: left;
-  color: #333;
-  padding-left: 80rpx !important;
-}
-
-.ssj_dert icon {
-  position: absolute;
-  left: 20rpx;
-  top: 20rpx;
-}
 .wenjier_dr{
   font-size: 30rpx;
   color: #101820;
@@ -58,7 +36,7 @@
   text-align: center;
   line-height: 60rpx;
   float: left;
-  margin-right: 35rpx;
+  margin-right: 25rpx;
   margin-bottom: 30rpx;
   border: 1px solid #fff
 }
@@ -70,3 +48,11 @@
 .tijiao_dfe.ab{
   background: #FF473B
 }
+.fds_deeert{
+  position: sticky;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  background: #EEEEEE
+}
+

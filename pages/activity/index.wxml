@@ -1,53 +1,50 @@
-<view class="bgff">
+<view class="bgff df_deertxc pm20">
   <view class='pt20  pd'>
-    <navigator class='ssj_dert' url="/pages/seek/index">
-      <icon type='search' size='18'></icon>
-      <text class="cz">搜索文章</text>
-    </navigator>
-
+     <view class='ssj_dert pr'>
+    <input placeholder='搜索文章' class='ssc_sdfd' bindfocus='sd_df_rrt'></input>
+    <icon type='search' size='18'></icon>
   </view>
 
+  </view>
+</view>
 
- 
+<view class='box cen bgff pt20 pm30'>
+  <view class='box_a' wx:for="{{sdf_dff}}">
+      <image src='{{item.img}}' class='sd_dfrttyxcc'></image>
+      <view class='fz30 z3 mt10'>{{item.name}}</view>
+  </view>
+
 </view>
  
- <view class='df_deertxc bbm '>
+ <!-- <view class='df_deertxc bbm '>
     <image src='/img/bian_s.png' class='sd_kjjh_der'></image>
     <scroll-view class="scroll-view_H pr" scroll-x style="width: 100%">
       <view wx:for="{{fenlei}}" class='sd_derdrt {{item.cls}}' bindtap='sd_drtx' data-idx="{{index}}">{{item.name}}</view>
       <view class='sd_derdrt ab'></view>
     </scroll-view>
-  </view>
+  </view> -->
 
 
 
 
-<view class='pd pt20 pm20'>
+<view class=' pt20 pm20 df_jh_der'>
 
-  <navigator class='yj4 bgff pd mb20' wx:for="{{10}}"  url="/pages/details/index">
-    <view class=' pt20 pm10 fz32 z3'>
+<view class="f_jh_derrttx"  wx:for="{{10}}">
+  <navigator class='yj4 bgff  mb20 ov  '  url="/pages/details/index">
+  
+    <image src='/img/banner.jpg' class='fenghm_eert cz'></image>
+    <view class='pd'>
+  <view class=' pt20 pm10 fz30 z3'>
       南昌大学公开课：走近科学女王
     </view>
-    <image src='/img/banner.jpg' class='fenghm_eert cz'></image>
 
-    <view class='pt20 pm10 z9 fz26'>
+
+    <view class=' pm10 pm10 z9 fz26'>
       7分钟前
-      <view class='fr sdf_derrtx'>
-        <view class='box sdf_jh_dert '>
-          <view class='box_a '>
-            <image src='/img/sdf_a.png' class='aa cz'></image>
-            <text class='z9 fz24 cz ml5'>572</text>
-          </view>
-          <view class='box_a pl30'>
-            <image src='/img/sdf_c.png' class='aa cz'></image>
-            <text class='z9 fz24 cz ml5'>572</text>
-          </view>
-
-        </view>
-      </view>
-      <view class='qc'></view>
     </view >
-
+</view>
   </navigator>
+</view>
 
+<view class='qc'></view>
 </view>

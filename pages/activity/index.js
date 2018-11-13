@@ -53,7 +53,23 @@ Page({
       name: "历史",
       cls: "",
       id: "0"
-    }]
+    }],
+
+    sdf_dff:[
+      {
+        name:"热门活动",
+        img:"/img/dsfds_a.png"
+      }, {
+        name: "TOP夏校",
+        img: "/img/dsfds_b.png"
+      }, {
+        name: "雅思托福",
+        img: "/img/dsfds_c.png"
+      }, {
+        name: "HOT名校",
+        img: "/img/dsfds_d.png"
+      }
+    ]
   },
 
   /**

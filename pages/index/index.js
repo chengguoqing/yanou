@@ -5,6 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    is_xiala:false,
     imgUrls: [ //轮播图
       '/img/banner.jpg',
       '/img/banner.jpg',
@@ -88,6 +89,12 @@ Page({
    */
   onLoad: function(options) {
 
+  },
+  sd_df_rrt(e){
+    this.setData({ is_xiala:true})
+  },
+  sd_df_rrt_d(e) {
+    this.setData({ is_xiala: false })
   },
   dsd_df(e) {
     let idx = e.currentTarget.dataset.idx,

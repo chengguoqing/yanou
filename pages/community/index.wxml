@@ -1,21 +1,14 @@
-<view class="bgff">
+<view class="bgff df_deertxc pm20">
   <view class='pt20  pd'>
-    <navigator class='ssj_dert' url="/pages/seek/index">
-      <icon type='search' size='18'></icon>
-      <text class="cz">搜索文章</text>
-    </navigator>
-
-  </view>
-     </view>
-  <view class='df_deertxc bbm '>
-    <image src='/img/bian_s.png' class='sd_kjjh_der'></image>
-    <scroll-view class="scroll-view_H pr" scroll-x style="width: 100%">
-      <view wx:for="{{fenlei}}" class='sd_derdrt {{item.cls}}' bindtap='sd_drtx' data-idx="{{index}}">{{item.name}}</view>
-      <view class='sd_derdrt ab'></view>
-    </scroll-view>
+     <view class='ssj_dert pr'>
+    <input placeholder='搜索文章' class='ssc_sdfd' bindfocus='sd_df_rrt'></input>
+    <icon type='search' size='18'></icon>
   </view>
 
-  <view class='mt20'>
+  </view>
+</view>
+
+  <view class=''>
 
 
 
