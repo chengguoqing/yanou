@@ -1,16 +1,16 @@
 <view class="pd pt20 pm20 bgff">
   <view class='fz32 z3'>
-    标题啊标题啊标题啊标题啊标题啊标题啊标题啊标题啊标题啊标题啊标题啊标题啊标题啊
+    {{sd.title}}
   </view>
-
+ 
   <view class='z9 fz26 mt20'>
-    原创：Christine
+    原创：{{sd.zz_name}}
     <text class='ls ml10'>燕鸥半岛+</text>
     <text class='ml10'>前天</text>
   </view>
 
-  <view class='fz30 mt20'>
-    是发送到发送到对方感受到递四方速递是发送到发送到对方感受到递四方速递是发送到发送到对方感受到递四方速递是发送到发送到对方感受到递四方速递是发送到发送到对方感受到递四方速递
+  <view class='fz30 mt20 '>
+    <rich-text nodes="{{sd.xq_text}}" ></rich-text>
   </view>
 
   <view class='fz26 z9 mt20'>

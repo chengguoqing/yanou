@@ -9,18 +9,46 @@
 </view>
 
 <view class='pt20 pm20 pd'>
-  <navigator class='ssj_dert' url="/pages/seek/index">
+  <!-- <navigator class='ssj_dert' url="/pages/seek/index">
     <icon type='search' size='18'></icon>
     <text class="cz">搜索文章</text>
-  </navigator>
+  </navigator> -->
+
+  <view class='ssj_dert pr'>
+
+    <input placeholder='搜索文章' class='ssc_sdfd'></input>
+    <icon type='search' size='18'></icon>
+  </view>
+
 
 </view>
+<view class='pl20 mt30'>
+  <text class='wenjier_dr {{item.cls}}' wx:for="{{sd_crf}}" data-idx="{{index}}" bindtap='dsd_df'>文学</text>
+</view>
+<view class='qc'></view>
+<view class='pd mt20 pm40'>
+  <view class='mui-col-xs-6 pr20'>
+    <view class='tijiao_dfe fz32 '>
+      提交
+    </view>
+  </view>
+  <view class='mui-col-xs-6 pl20'>
+    <view class='tijiao_dfe fz32 ab'>
+      取消
+    </view>
+  </view>
+  <view class='qc'></view>
+
+</view>
+
+
+
 
 <view class='df_deertxc bbm btm'>
   <image src='/img/bian_s.png' class='sd_kjjh_der'></image>
   <scroll-view class="scroll-view_H pr" scroll-x style="width: 100%">
     <view wx:for="{{fenlei}}" class='sd_derdrt {{item.cls}}' bindtap='sd_drtx' data-idx="{{index}}">{{item.name}}</view>
-<view class='sd_derdrt ab'></view>
+    <view class='sd_derdrt ab'></view>
   </scroll-view>
 </view>
 

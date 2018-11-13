@@ -27,3 +27,6 @@
   z-index: 1000;
   font-size: 28rpx
 }
+.fdg_drrty img,.fdg_drrty image{
+ width: 100% !important
+}

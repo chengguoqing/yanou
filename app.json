@@ -1,13 +1,12 @@
 {
   "pages": [
-        "pages/index/index",
+    "pages/index/index",
     "pages/details/index",
+    "pages/community/index",
     "pages/seek/index",
     "pages/user/my_favorite",
     "pages/user/index",
-    "pages/community/index",
     "pages/activity/index"
-
   ],
   "window": {
     "backgroundTextStyle": "light",

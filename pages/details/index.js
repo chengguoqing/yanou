@@ -1,18 +1,35 @@
 // pages/details/index.js
+import base from "../../utils/base.js"
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    sd:"",
+    nodes: [{
+      name: 'div',
+      attrs: {
+        class: 'red',
+      },
+      children: [{
+        type: 'text',
+        text: 'Hello&nbsp;World!'
+      }]
+    }]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
-
+  onLoad: function (options) { 
+    let th=this
+    base.ajax("http://127.0.0.1:3000/ouyan_api/get_xq",{id:9},function(data){
+    
+      data.data.xq_text = data.data.xq_text.replace(/\<img/gi, '<img style="max-width:100%;height:auto" ')
+     
+      th.setData({ sd: data.data})
+    })
   },
 
   /**

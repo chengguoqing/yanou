@@ -85,7 +85,7 @@ function dateFtt(fmt, date) { //author: meizz
 
 exports.ajax = function (ur_l, dat_a, callbrealk, method) {
   wx.request({
-    url: 'https://duxinggj.com/new/' + ur_l, //仅为示例，并非真实的接口地址
+    url:  ur_l, //仅为示例，并非真实的接口地址
     method: method||"post",
     data: dat_a, 
     header: { 

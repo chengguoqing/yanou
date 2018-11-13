@@ -64,6 +64,23 @@ Page({
       name: "历史",
       cls: "",
       id: "0"
+    }],
+    sd_crf: [{
+      cls: "act"
+    }, {
+      cls: ""
+    }, {
+      cls: ""
+    }, {
+      cls: ""
+    }, {
+      cls: ""
+    }, {
+      cls: ""
+    }, {
+      cls: ""
+    }, {
+      cls: ""
     }]
   },
   /**
@@ -72,15 +89,29 @@ Page({
   onLoad: function(options) {
 
   },
+  dsd_df(e) {
+    let idx = e.currentTarget.dataset.idx,
+      sd_crf = this.data.sd_crf
+    if (sd_crf[idx].cls){
+      sd_crf[idx].cls = ""
+    }else{
+      sd_crf[idx].cls = "act"
+    }
 
+    this.setData({
+      sd_crf: sd_crf
+    })
+  },
   sd_drtx: function(e) {
     var idx = e.currentTarget.dataset.idx,
       fenlei = this.data.fenlei
-    fenlei.map(a=>{
-      a.cls=""
+    fenlei.map(a => {
+      a.cls = ""
     })
-    fenlei[idx].cls="act"
-    this.setData({ fenlei: fenlei})
+    fenlei[idx].cls = "act"
+    this.setData({
+      fenlei: fenlei
+    })
   },
   /**
    * 生命周期函数--监听页面初次渲染完成
